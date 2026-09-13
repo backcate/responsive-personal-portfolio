@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/output.css">
+    <title>W&P</title>
+</head>
+<body class="bg-gray-50">
+    <!-- ================== navbar ================== -->
+    <nav class="bg-blue-950">
+        <div class="container mx-auto flex justify-between items-center h-20">
+            <div class="text-purple-500 text-2xl font-bold">
+                <a href="index.html">Logo Women</a>
+            </div>
+            <div class="hidden lg:flex">
+                <ul class="flex text-white capitalize text-[18px] gap-0 me-12 xl:gap-4">
+                    <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="index.html"><i class="fa-solid fa-house"></i> home</a></li>
+                    <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="about.html"><i class="fa-regular fa-user"></i> about</a></li>
+                    <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="portfolio.html"><i class="fa-regular fa-folder"></i> portfolio</a></li>
+                    <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="service.html"><i class="fa-solid fa-gear"></i> service</a></li>
+                    <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="contact.html"><i class="fa-regular fa-envelope"></i> contact</a></li>
+                </ul>
+                <div>
+                    <button class="bg-purple-600 py-1.5 px-3.5 rounded text-white capitalize text-[18px] hover:bg-purple-800 transition cursor-pointer"><i class="fa-solid fa-paper-plane"></i> hire me</button>
+                </div>
+            </div>
+            <div class="relative lg:hidden">
+                <button class="text-white text-3xl cursor-pointer hover:text-purple-600 transition"><i class="fa-solid fa-bars"></i></button>
+                <div class="absolute bg-blue-950 top-14 right-0 w-36 z-50 hidden">
+                    <ul class="text-white capitalize text-[18px] gap-4 block items-center">
+                        <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="index.html"><i class="fa-solid fa-house"></i> home</a></li>
+                        <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="about.html"><i class="fa-regular fa-user"></i> about</a></li>
+                        <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="portfolio.html"><i class="fa-regular fa-folder"></i> portfolio</a></li>
+                        <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="service.html"><i class="fa-solid fa-gear"></i> service</a></li>
+                        <li class="py-1.5 px-3.5 rounded hover:bg-purple-800 transition cursor-pointer"><a href="contact.html"><i class="fa-regular fa-envelope"></i> contact</a></li>
+                    </ul>
+                    <div>
+                        <button class="bg-purple-600 py-1.5 px-3.5 rounded text-white capitalize text-[18px] hover:bg-purple-800 transition cursor-pointer w-full mt-2.5"><i class="fa-solid fa-paper-plane"></i> hire me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================== main ================== -->
+    <main>
+        <!-- Banner part -->
+        <section>
+            <div class="w-full h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[70vh] bg-cover bg-center bg-no-repeat bg-[url('../images/3.png')] relative">
+                <div class="absolute inset-0 bg-linear-to-r from-white via-white/50">
+                    <div class="absolute top-1/2 left-[5%] -translate-y-1/2 w-70 sm:w-100 sm:left-[10%]">
+                        <h1 class="text-4xl font-bold capitalize mb-3 lg:text-6xl sm:text-5xl">about <span class="text-purple-800">me</span></h1>
+                        <h3 class="text-[16px] capitalize font-bold mb-3 sm:mb-5 lg:text-2xl sm:text-[18px]">home <i class="fa-solid fa-chevron-right text-[12px] sm:text-[14px] md:text-[16px] lg:text-[18px]"></i><span class="text-purple-800"> about</span></h3>
+                        <p class="text-[14px] lg:text-[20px] sm:text-[16px]">Get to know more about me, my journey, skills and what drives me to create amazing digital experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My story -->
+        <section class="my-10">
+            <div class="container mx-auto">
+                <div class="block lg:hidden text-center mb-10 sm:mb-16 md:mb-20">
+                    <h3 class="bg-purple-300/50 text-purple-700 py-1 px-2.5 rounded-4xl text-[14px] font-bold inline-block capitalize mb-2.5 md:mb-5 sm:text-base sm:py-1.5 sm:px-5">about me</h3>
+                    <h1 class="relative text-[20px] capitalize font-bold before:content-[''] before:absolute before:left-1/2 before:-translate-x-1/2 before:-bottom-3 before:w-20 before:h-1 before:bg-purple-700 lg:text-4xl md:before:-bottom-5 md:text-3xl sm:text-2xl">hello! i'm <span class="text-purple-800">soniya mahi</span></h1>
+                </div>
+                <div class="flex flex-col lg:flex-row">
+                    <div class="w-full overflow-hidden rounded-none sm:rounded-3xl lg:w-1/2 2xl:w-1/3">
+                        <img src="assets/images/about.png" alt="my_image" class="w-full h-full bg-cover bg-center bg-no-repeat">
+                    </div>
+                    <div class="w-full ml-0 2xl:w-2/3 lg:w-1/2 lg:ml-10 xl:ml-16">
+                        <div class="hidden lg:block">
+                            <h3 class="bg-purple-300/50 text-purple-700 py-1 px-2.5 rounded-4xl text-[14px] font-bold inline-block capitalize mb-2.5 md:mb-5 sm:text-base sm:py-1.5 sm:px-5">about me</h3>
+                            <h1 class="relative text-[20px] capitalize font-bold before:content-[''] before:absolute before:left-0 before:-bottom-3 before:w-20 before:h-1 before:bg-purple-700 lg:text-4xl md:before:-bottom-5 md:text-3xl sm:text-2xl">hello! i'm <span class="text-purple-800">soniya mahi</span></h1>
+                        </div>
+                        <p class="mt-10">I'm a passionate Font-End Web Developer and Creative Freelancer with a love for building beautiful, responsive and uer-friendly websites responsive. <br><br>I enjoy turning ideas ideas into reality though clean code and modern design. My goal is to deliver high quality work that helps businesses grow and make a strong online presence.</p>
+                        <div class="mt-6">
+                            <div class="text-[16px] text-start grid grid-cols-1 gap-y-2 font-bold 2xl:text-[18px] xl:grid-cols-2">
+                                <h4><i class="fa-brands fa-hire-a-helper text-purple-800 mb-2 text-[16px] me-1.5 2xl:text-[20px]"></i> clean & standard code</h4>
+                                <h4><i class="fa-solid fa-display text-purple-800 mb-2 text-[16px] me-1.5 2xl:text-[20px]"></i> fully responsive design</h4>
+                                <h4><i class="fa-solid fa-hourglass text-purple-800 mb-2 text-[16px] me-1.5 2xl:text-[20px]"></i> on-time delivery</h4>
+                                <h4><i class="fa-brands fa-cloudversify text-purple-800 mb-2 text-[16px] me-1.5 2xl:text-[20px]"></i> client satisfaction is my first priority</h4>
+                            </div>
+                            <div class="flex gap-4 text-[20px] mt-5">
+                                <a href="" class="flex items-center justify-center bg-purple-400/30 w-9 h-9 rounded-full xl:w-12 xl:h-12"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="" class="flex items-center justify-center bg-purple-400/30 w-9 h-9 rounded-full xl:w-12 xl:h-12"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="" class="flex justify-center items-center bg-purple-400/30 w-9 h-9 rounded-full xl:w-12 xl:h-12"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="" class="flex items-center justify-center bg-purple-400/30 w-9 h-9 rounded-full xl:w-12 xl:h-12"><i class="fa-brands fa-github"></i></a>
+                                <a href="" class="flex items-center justify-center bg-purple-400/30 w-9 h-9 rounded-full xl:w-12 xl:h-12"><i class="fa-solid fa-square-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section class="py-10 bg-blue-50">
+            <div class="container mx-auto">
+                <div class="text-center">
+                    <h3 class="bg-purple-300/50 text-purple-700 py-1 px-2.5 rounded-4xl text-[14px] font-bold inline-block capitalize mb-2.5 md:mb-5 sm:text-base sm:py-1.5 sm:px-5">my skills</h3>
+                    <h1 class="relative text-[20px] capitalize font-bold before:content-[''] before:absolute before:left-1/2 before:-translate-x-1/2 before:-bottom-3 before:w-20 before:h-1 before:bg-purple-700 lg:text-4xl md:before:-bottom-5 md:text-3xl sm:text-2xl">my skills & expertise</span></h1>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-6 xl:gap-8 2xl:gap-10">
+                    <div class="w-full lg:w-[70%] mt-10 bg-white p-10 rounded shadow-lg flex flex-col sm:flex-row gap-0 sm:gap-20 relative before:hidden sm:before:block before:content-[''] before:absolute before:w-1 before:h-[75%] before:bg-blue-50 before:left-1/2 before:-translate-x-1/2 before:top-1/2 before:-translate-y-1/2 before:[box-shadow:inset_2px_0_3px_rgba(0,0,0,0.07),inset_-2px_0_3px_rgba(0,0,0,0.07)] before:rounded-full">
+                        <div class="w-full sm:w-1/2 flex flex-col justify-between">
+                            <div class="relative">
+                                <h3 class="font-bold">HTML5 & CSS3</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full mt-2">
+                                    <div class="w-[95%] h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">95</span>%</p>
+                            </div>
+                            <div class="relative mt-4 lg:mt-0">
+                                <h3 class="font-bold">JavaScript</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full">
+                                    <div class="w-[61%] h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">61</span>%</p>
+                            </div>
+                            <div class="relative mt-4 lg:mt-0">
+                                <h3 class="font-bold">Responsive Design</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full">
+                                    <div class="w-full h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">100</span>%</p>
+                            </div>
+                            <div class="relative mt-4 lg:mt-0">
+                                <h3 class="font-bold">PHP & Laravel</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full">
+                                    <div class="w-[70%] h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">70</span>%</p>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-1/2 flex flex-col justify-between mt-4 sm:mt-0">
+                            <div class="relative">
+                                <h3 class="font-bold">Bootstrap / TailwindCSS</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full mt-2">
+                                    <div class="w-[85%] h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">85</span>%</p>
+                            </div>
+                            <div class="relative mt-4 lg:mt-0">
+                                <h3 class="font-bold">UI/UX Design</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full">
+                                    <div class="w-[40%] h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">40</span>%</p>
+                            </div>
+                            <div class="relative mt-4 lg:mt-0">
+                                <h3 class="font-bold">SEO optimization</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full">
+                                    <div class="w-[70%] h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">70</span>%</p>
+                            </div>
+                            <div class="relative mt-4 lg:mt-0">
+                                <h3 class="font-bold">My SQL</h3>
+                                <div class="w-full h-2.5 overflow-hidden bg-gray-100 rounded-full">
+                                    <div class="w-[55%] h-2.5 bg-purple-800 wow slideInLeft rounded-full" data-wow-duration="1s"></div>
+                                </div>
+                                <p class="absolute top-0 right-0 font-bold"><span class="counter">55</span>%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-[30%] flex flex-col sm:flex-row lg:flex-col gap-1">
+                        <div class="bg-white text-center w-full py-3 hover:bg-purple-900 text-black hover:text-white transition rounded shadow-lg lg:py-6">
+                            <h2 class="text-[18px] font-bold lg:text-3xl md:text-2xl"><span class="counter">2</span>+</h2>
+                            <p class="text-[13px] capitalize lg:text-[15px]">years experience</p>
+                        </div>
+                        <div class="bg-white text-center w-full py-3 hover:bg-purple-900 text-black hover:text-white transition rounded shadow-lg lg:py-6">
+                            <h2 class="text-[18px] font-bold lg:text-3xl md:text-2xl"><span class="counter">50</span>+</h2>
+                            <p class="text-[13px] capitalize lg:text-[15px]">happy clients</p>
+                        </div>
+                        <div class="bg-white text-center w-full py-3 hover:bg-purple-900 text-black hover:text-white transition rounded shadow-lg lg:py-6">
+                            <h2 class="text-[18px] font-bold lg:text-3xl md:text-2xl"><span class="counter">80</span>+</h2>
+                            <p class="text-[13px] capitalize lg:text-[15px]">projects completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section class="py-10">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 lg:gap-0">
+                    <div class="relative ml-0 lg:ml-37.5">
+                        <div class="text-center lg:text-start mb-16">
+                            <h3 class="bg-purple-300/50 text-purple-700 py-1 px-2.5 rounded-4xl text-[14px] font-bold inline-block capitalize mb-2.5 sm:py-1.5 sm:px-5">my experience</h3>
+                            <h1 class="relative text-[18px] capitalize font-bold before:content-[''] before:absolute before:left-1/2 lg:before:left-0 before:-translate-x-1/2 lg:before:translate-x-0 before:-bottom-5 before:w-20 before:h-1 before:bg-purple-700 lg:text-3xl md:text-2xl sm:text-[20px]">work experience</span></h1>
+                        </div>
+                        <div class="flex mt-6 text-center sm:text-start">
+                            <div class="w-100 mx-auto sm:mx-0">
+                                <h5 class="font-bold capitalize">2026-present</h5>
+                                <h4 class="text-[20px] font-bold capitalize">font-end web developer</h4>
+                                <p class="text-[18px] font-light capitalize">creative solutions</p>
+                                <p class="font-normal">Building modern, responsive websites and web applications for clients worldwide.</p>
+                            </div>
+                        </div>
+                        <div class="flex mt-6 text-center sm:text-start">
+                            <div class="w-100 mx-auto sm:mx-0">
+                                <h5 class="font-bold capitalize">2025-2026</h5>
+                                <h4 class="text-[20px] font-bold capitalize">junior web developer</h4>
+                                <p class="text-[18px] font-light capitalize">digital agency</p>
+                                <p class="font-normal">developed and maintained websites using HTML, CSS, JavaScript and Bootstrap.</p>
+                            </div>
+                        </div>
+                        <div class="flex mt-6 text-center sm:text-start">
+                            <div class="w-100 mx-auto sm:mx-0">
+                                <h5 class="font-bold capitalize">2024-2025</h5>
+                                <h4 class="text-[20px] font-bold capitalize">web developer intern</h4>
+                                <p class="text-[18px] font-light capitalize">tech studio</p>
+                                <p class="font-normal">Assisted in front-end development and learned best coding practices.</p>
+                            </div>
+                        </div>
+                        <img src="assets/images/dot.png" alt="dot" class="absolute top-22 -left-25 h-105 hidden lg:block">
+                        <div class="absolute bg-purple-50 w-14 h-14 rounded-full top-39 -left-25 lg:flex items-center justify-center text-[19px] shadow hover:shadow-lg hidden">
+                            <i class="fa-solid fa-briefcase text-purple-900"></i>
+                        </div>
+                        <div class="absolute bg-purple-100 w-14 h-14 rounded-full top-77 -left-25 lg:flex items-center justify-center text-[19px] shadow hover:shadow-lg hidden">
+                            <i class="fa-solid fa-briefcase text-purple-700"></i>
+                        </div>
+                        <div class="absolute bg-purple-200 w-14 h-14 rounded-full top-115 -left-25 lg:flex items-center justify-center text-[19px] shadow hover:shadow-lg hidden">
+                            <i class="fa-solid fa-briefcase text-purple-600"></i>
+                        </div>
+                    </div>
+                    <div class="relative ml-0 lg:ml-37.5 mt-10 sm:mt-0">
+                        <div class="text-center lg:text-start mb-16">
+                            <h3 class="bg-purple-300/50 text-purple-700 py-1 px-2.5 rounded-4xl text-[14px] font-bold inline-block capitalize mb-2.5 sm:py-1.5 sm:px-5">my education</h3>
+                            <h1 class="relative text-[18px] capitalize font-bold before:content-[''] before:absolute before:left-1/2 lg:before:left-0 before:-translate-x-1/2 lg:before:translate-x-0 before:-bottom-5 before:w-20 before:h-1 before:bg-purple-700 lg:text-3xl md:text-2xl sm:text-[20px]">education</span></h1>
+                        </div>
+                        <div class="flex mt-6 text-center sm:text-start">
+                            <div class="w-100 mx-auto sm:mx-0">
+                                <h5 class="font-bold capitalize">2024 - 2028</h5>
+                                <h4 class="text-[20px] font-bold capitalize">B.Sc. in Computer Science & Engineering</h4>
+                                <p class="text-[18px] font-light capitalize">Bangladesh University of Business and Technology (BUBT)</p>
+                                <p class="font-bold text-purple-800">CGPA: 3.72 out of 4.00</p>
+                            </div>
+                        </div>
+                        <div class="flex mt-6 text-center sm:text-start">
+                            <div class="w-100 mx-auto sm:mx-0">
+                                <h5 class="font-bold capitalize">2019-2024</h5>
+                                <h4 class="text-[20px] font-bold capitalize">Higher Secondary Certificate (HSC)</h4>
+                                <p class="text-[18px] font-light capitalize">Dhaka College, Dhaka</p>
+                                <p class="font-bold text-purple-800">GPA: 5.00 out of 5.00</p>
+                            </div>
+                        </div>
+                        <div class="flex mt-6 text-center sm:text-start">
+                            <div class="w-100 mx-auto sm:mx-0">
+                                <h5 class="font-bold capitalize">2017-2019</h5>
+                                <h4 class="text-[20px] font-bold capitalize">Secondary School Certificate (SSC)</h4>
+                                <p class="text-[18px] font-light capitalize">Ideal School & College, Dhaka</p>
+                                <p class="font-bold text-purple-800">GPA: 5.00 out of 5.00</p>
+                            </div>
+                        </div>
+                        <img src="assets/images/dot.png" alt="dot" class="absolute top-22 -left-26 h-120 hidden lg:block">
+                        <div class="absolute bg-purple-50 w-14 h-14 rounded-full top-39 -left-25 lg:flex items-center justify-center text-[19px] shadow hover:shadow-lg hidden">
+                            <i class="fa-solid fa-graduation-cap text-purple-900"></i>
+                        </div>
+                        <div class="absolute bg-purple-100 w-14 h-14 rounded-full top-77 -left-25 lg:flex items-center justify-center text-[19px] shadow hover:shadow-lg hidden">
+                            <i class="fa-solid fa-graduation-cap text-purple-700"></i>
+                        </div>
+                        <div class="absolute bg-purple-200 w-14 h-14 rounded-full top-115 -left-25 lg:flex items-center justify-center text-[19px] shadow hover:shadow-lg hidden">
+                            <i class="fa-solid fa-graduation-cap text-purple-600"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools & technologies -->
+        <section class="py-10 bg-blue-50">
+            <div class="container mx-auto">
+                <div class="text-center">
+                    <h3 class="bg-purple-300/50 text-purple-700 py-1 px-2.5 rounded-4xl text-[14px] font-bold inline-block capitalize mb-2.5 sm:py-1.5 sm:px-5">tools i use</h3>
+                    <h1 class="relative text-[18px] capitalize font-bold lg:text-3xl md:text-2xl sm:text-[20px]">Tools & technologies</span></h1>
+                    <div class="tools-slider my-10">
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools11.png" alt="html" class="w-20">
+                        </div>
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools12.png" alt="css" class="w-20">
+                        </div>
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools2.png" alt="js" class="w-20">
+                        </div>
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools10.png" alt="bootstrap" class="w-20">
+                        </div>
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools4.png" alt="" class="w-20">
+                        </div>
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools3.png" alt="vs-code" class="w-20">
+                        </div>
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools5.png" alt="my-sql" class="w-20">
+                        </div>
+                        <div class="bg-white p-8 2xl:p-10 mx-8 sm:mx-4 rounded-2xl flex items-center justify-center shadow">
+                            <img src="assets/images/tools1.png" alt="python" class="w-20">
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row bg-[url('../images/technologies.png')] bg-center bg-cover bg-no-repeat w-full py-8 lg:py-10 px-6 sm:px-8 md:px-10 lg:px-12 rounded-none sm:rounded-2xl">
+                        <div class="w-full sm:w-3/4 text-start">
+                            <h1 class="text-white text-2xl sm:text-3xl lg:text-4xl font-bold capitalize mb-1 lg:mb-5">let's work together!</h1>
+                            <p class="text-white text-[14px] sm:text-[16px] lg:text-[20px] leading-normal sm:leading-6.5 lg:leading-8">I'm always open to discussing new projects and opportunlties. <br> let's create something amazing together.</p>
+                        </div>
+                        <div class="w-full sm:w-1/4 items-center flex justify-start mt-3 sm:mt-0 sm:justify-center">
+                            <button class="bg-white rounded lg:rounded-2xl text-[18px] capitalize cursor-pointer py-1.5 lg:py-3 px-5 lg:px-7 hover:bg-purple-50 transition"><i class="fa-solid fa-paper-plane"></i> hire me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================== footer ================== -->
+    <footer class="bg-blue-950">
+        <div class="lg:m-auto lg:container">
+            <div class="grid grid-cols-1 justify-between py-8 gap-4 lg:gap-8 xl:gap-0 lg:grid-cols-4 sm:grid-cols-2 text-center sm:text-start">
+                <div class="">
+                    <div class="text-purple-500 text-3xl font-bold">
+                        <a href="#">Logo Women</a>
+                    </div>
+                    <p class="text-white my-5">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    <div class="flex gap-2.5 text-2xl text-center text-white justify-center sm:justify-start">
+                        <a href="" class="flex items-center justify-center bg-blue-100/10 w-10 h-10 rounded-full"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="" class="flex items-center justify-center bg-blue-100/10 w-10 h-10 rounded-full"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" class="flex justify-center items-center bg-blue-100/10 w-10 h-10 rounded-full"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="" class="flex items-center justify-center bg-blue-100/10 w-10 h-10 rounded-full"><i class="fa-brands fa-github"></i></a>
+                        <a href="" class="flex items-center justify-center bg-blue-100/10 w-10 h-10 rounded-full"><i class="fa-solid fa-square-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="">
+                    <h3 class="text-white font-bold text-[18px] capitalize xl:text-2xl">quick link</h3>
+                    <ul class="text-white capitalize mt-2.5 grid grid-cols-1 mx-auto text-start gap-1 text-[14px] xl:text-[16px] w-25 xl:w-full sm:mx-0">
+                        <li class="text-center sm:text-start"><a href="index.html" class="hover:text-purple-400 transition"><i class="fa-solid fa-angle-right text-purple-400 before:hidden sm:before:block"></i> home</a></li>
+                        <li class="text-center sm:text-start"><a href="about.html" class="hover:text-purple-400 transition"><i class="fa-solid fa-angle-right text-purple-400 before:hidden sm:before:block"></i> about</a></li>
+                        <li class="text-center sm:text-start"><a href="portfolio.html" class="hover:text-purple-400 transition"><i class="fa-solid fa-angle-right text-purple-400 before:hidden sm:before:block"></i> portfolio</a></li>
+                        <li class="text-center sm:text-start"><a href="service.html" class="hover:text-purple-400 transition"><i class="fa-solid fa-angle-right text-purple-400 before:hidden sm:before:block"></i> service</a></li>
+                        <li class="text-center sm:text-start"><a href="contact.html" class="hover:text-purple-400 transition"><i class="fa-solid fa-angle-right text-purple-400 before:hidden sm:before:block"></i> contact</a></li>
+                    </ul>
+                </div>
+                <div class="text-white capitalize">
+                    <h3 class="font-bold text-[18px] xl:text-2xl">contact info</h3>
+                    <span class="block mt-2.5 text-[14px] xl:text-[16px]"><i class="fa-solid fa-location-dot me-1.5"></i> dhaka, bangladesh</span>
+                    <a class="block mt-2 lowercase text-[14px] xl:text-[16px]" href="#"><i class="fa-solid fa-envelope me-1.5"></i> muhammad.ali947091@gmail.com</a>
+                    <span class="block mt-2 text-[14px] xl:text-[16px]"><i class="fa-solid fa-phone me-1.5"></i> +880 1616-013947</span>
+                </div>
+                <div class="text-white capitalize">
+                    <h3 class="font-bold text-[18px] xl:text-2xl">newsletter</h3>
+                    <div class="mt-2.5">
+                        <form action="" class="flex flex-col">
+                            <label for="" class="text-gray-400 text-[14px] xl:text-[16px]">subscribe to get updates!</label>
+                            <input type="email" placeholder="Your Email Address" class="bg-white py-2 mt-1 rounded text-black px-4 focus:outline-none">
+                            <button class="bg-purple-600 py-1.5 px-3.5 rounded text-white capitalize text-[18px] hover:bg-purple-800 transition cursor-pointer mt-2"><i class="fa-solid fa-paper-plane"></i> subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-gray-500">
+            <div class="pt-4 pb-6 text-white">
+                <div class="text-center">
+                    <span>Copyright © 2026, All Right Reserved | <a href="#">Muhammad Ali</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= back to top ================== -->
+    <a class="fixed right-5 bottom-5 bg-purple-500/70 w-11 h-11 rounded-full text-center leading-10.5 hidden back-to-top cursor-pointer">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <!-- js -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
