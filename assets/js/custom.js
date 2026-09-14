@@ -1,32 +1,5 @@
 $(function(){
 
-    // Slide Up and Down
-    javascript
-    $('.slideUp').click(function () {
-
-        let faq = $(this).closest('.relative');
-
-        faq.find('.textSlide').slideUp(1000);
-
-        $(this).addClass('hidden');
-
-        faq.find('.slideDown').removeClass('hidden');
-
-    });
-
-
-    $('.slideDown').click(function () {
-
-        let faq = $(this).closest('.relative');
-
-        faq.find('.textSlide').slideDown(1000);
-
-        $(this).addClass('hidden');
-
-        faq.find('.slideUp').removeClass('hidden');
-
-    });
-
     //------------back to top
     $('.back-to-top').click(function(){
         $('html, body').animate({scrollTop:0}, 1500);
